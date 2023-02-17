@@ -1,0 +1,92 @@
+:root {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  color: var(--text);
+  font-family: var(--font-family);
+  background-color: white; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 2rem;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 4.2rem; }
+
+h2 {
+  font-size: 3.8rem; }
+
+h3 {
+  font-size: 3.4rem; }
+
+h4 {
+  font-size: 3rem; }
+
+h5 {
+  font-size: 2.6rem; }
+
+h6 {
+  font-size: 2.2rem; }
+
+ul {
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+a {
+  color: var(--text);
+  text-decoration: none; }
+
+:root {
+  --primary: #9b59b6;
+  --secondary: #8e44ad;
+  --purple-back: #D9A3F3;
+  --dark: #2c3e50;
+  --accent: #95a5a6;
+  --euforie: #d35400;
+  --text: #333;
+  --divider: #bdc3c7;
+  --font-family: 'Roboto', sans-serif;
+  --title-font: 'Moon Dance', sans-serif;
+  --about-me-font: 'Moon Dance', sans-serif;
+  --box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+        0 1px 3px 1px rgba(60, 64, 67, 0.15); }
+
+.btn {
+  color: var(--dark);
+  background-color: #bee9ee;
+  border-radius: 0.5rem;
+  margin: 0.4rem;
+  padding: 0.4rem 0.6rem; }
+  .btn-primary {
+    border: 0.2rem solid var(--primary); }
+  .btn-secondary {
+    border: 0.2rem solid var(--secondary); }
+
+.container {
+  background: radial-gradient(circle, #9b59b6 0%, #bdc3c7 46%); }
+
+.underline {
+  display: block;
+  background-color: black;
+  margin: 4rem auto;
+  height: 0.5rem;
+  width: 80vw; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Landscape phones and down */
+/* Portrait tablet to landscape and desktop */
+/* Large desktop */
+/* Extra Large desktop */
+/* Very Large desktop */

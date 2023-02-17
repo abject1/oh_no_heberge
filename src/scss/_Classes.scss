@@ -1,0 +1,25 @@
+.btn {
+    color: var(--dark);
+    background-color: rgb(190, 233, 238);
+    border-radius: 0.5rem;
+    margin: 0.4rem;
+    padding: 0.4rem 0.6rem;
+    &-primary {
+        border: 0.2rem solid var(--primary);
+    }
+    &-secondary {
+        border: 0.2rem solid var(--secondary);
+    }
+}
+
+.container {
+    background: radial-gradient(circle, rgba(155,89,182,1) 0%, rgba(189,195,199,1) 46%);
+}
+
+.underline {
+    display: block;
+    background-color: black;
+    margin: 4rem auto;
+    height: 0.5rem;
+    width: 80vw;
+}

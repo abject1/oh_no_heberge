@@ -1,0 +1,32 @@
+{
+  "name": "oh_no_heberge",
+  "version": "0.0.1",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w src/scss -o public/css",
+    "babel": "babel src/js --out-dir public/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abject1/oh_no_heberge.git"
+  },
+  "keywords": [],
+  "author": "Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abject1/oh_no_heberge.git/issues"
+  },
+  "homepage": "https://github.com/abject1/oh_no_heberge.git#readme",
+  "dependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "node-sass": "^7.0.3",
+    "sass": "^1.56.0",
+    "sass-loader": "^13.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
