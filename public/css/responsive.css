@@ -1,4 +1,50 @@
 :root {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  color: var(--text);
+  font-family: var(--font-family);
+  background-color: white; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 2rem;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 4.2rem; }
+
+h2 {
+  font-size: 3.8rem; }
+
+h3 {
+  font-size: 3.4rem; }
+
+h4 {
+  font-size: 3rem; }
+
+h5 {
+  font-size: 2.6rem; }
+
+h6 {
+  font-size: 2.2rem; }
+
+ul {
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+a {
+  color: var(--text);
+  text-decoration: none; }
+
+:root {
   --primary: #9b59b6;
   --secondary: #8e44ad;
   --purple-back: #D9A3F3;
@@ -13,8 +59,112 @@
   --box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
         0 1px 3px 1px rgba(60, 64, 67, 0.15); }
 
+.btn {
+  color: var(--dark);
+  background-color: #dee5e6;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  font-weight: 500;
+  font-size: 1rem; }
+  .btn-primary {
+    border: 0.2rem solid var(--primary); }
+  .btn-secondary {
+    border: 0.2rem solid var(--secondary); }
+
+.container {
+  background-color: rgba(241, 245, 221, 0.821);
+  border-radius: 0.8rem;
+  padding: 1.8rem;
+  margin: 1.5rem; }
+
+.underline {
+  display: block;
+  background-color: black;
+  margin: 2rem auto;
+  height: 0.2rem;
+  width: 80vw; }
+
+.next {
+  display: block !important;
+  margin: auto; }
+  .next p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 1.2rem auto; }
+  .next h5 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1.2rem auto 1.5rem auto;
+    font-weight: normal; }
+
+#next-desc {
+  display: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 /* Landscape phones and down */
 /* Portrait tablet to landscape and desktop */
 /* Large desktop */
 /* Extra Large desktop */
 /* Very Large desktop */
+/* ########## */
+/* ### XS ### */
+/* ########## */
+@media (max-width: 767px) {
+  /* HEADER */
+  header {
+    background-image: url(../../assets/logo-mobile.png); }
+  /* NAV */
+  nav ul li:hover {
+    animation: f10;
+    animation-duration: 2s;
+    font-size: 1rem; }
+  @keyframes f10 {
+    0% {
+      font-size: 1rem; }
+    50% {
+      font-size: 1.2rem; }
+    100% {
+      font-size: 1rem; } }
+  /* CONTACT */
+  .contact form input {
+    width: 50vw;
+    height: 2.8vh; }
+  .contact form textarea {
+    width: 50vw;
+    height: 8vh; } }
+
+/* ########## */
+/* ### MD ### */
+/* ########## */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* HEADER */
+  header {
+    background-image: url(../../assets//logo.png); } }
+
+/* ########## */
+/* ### XL ### */
+/* ########## */
+@media (min-width: 980px) and (max-width: 1200px) {
+  /* HEADER */
+  header {
+    background-image: url(../../assets//logo.png); } }
+
+/* #######"### */
+/* ### XXL ### */
+/* ########### */
+@media (min-width: 1201px) and (max-width: 2000px) {
+  /* HEADER */
+  header {
+    background-image: url(../../assets//logo.png); } }
+
+/* ############ */
+/* ### XXXL ### */
+/* ############ */
+@media (min-width: 2001px) and (max-width: 2600px) {
+  /* HEADER */
+  header {
+    background-image: url(../../assets//logo.png); } }

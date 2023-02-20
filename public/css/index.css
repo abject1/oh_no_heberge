@@ -1,0 +1,196 @@
+:root {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  color: var(--text);
+  font-family: var(--font-family);
+  background-color: white; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 2rem;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 4.2rem; }
+
+h2 {
+  font-size: 3.8rem; }
+
+h3 {
+  font-size: 3.4rem; }
+
+h4 {
+  font-size: 3rem; }
+
+h5 {
+  font-size: 2.6rem; }
+
+h6 {
+  font-size: 2.2rem; }
+
+ul {
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+a {
+  color: var(--text);
+  text-decoration: none; }
+
+:root {
+  --primary: #9b59b6;
+  --secondary: #8e44ad;
+  --purple-back: #D9A3F3;
+  --dark: #2c3e50;
+  --accent: #95a5a6;
+  --euforie: #d35400;
+  --text: #333;
+  --divider: #bdc3c7;
+  --font-family: 'Roboto', sans-serif;
+  --title-font: 'Moon Dance', sans-serif;
+  --about-me-font: 'Moon Dance', sans-serif;
+  --box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+        0 1px 3px 1px rgba(60, 64, 67, 0.15); }
+
+.btn {
+  color: var(--dark);
+  background-color: #dee5e6;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  font-weight: 500;
+  font-size: 1rem; }
+  .btn-primary {
+    border: 0.2rem solid var(--primary); }
+  .btn-secondary {
+    border: 0.2rem solid var(--secondary); }
+
+.container {
+  background-color: rgba(241, 245, 221, 0.821);
+  border-radius: 0.8rem;
+  padding: 1.8rem;
+  margin: 1.5rem; }
+
+.underline {
+  display: block;
+  background-color: black;
+  margin: 2rem auto;
+  height: 0.2rem;
+  width: 80vw; }
+
+.next {
+  display: block !important;
+  margin: auto; }
+  .next p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 1.2rem auto; }
+  .next h5 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1.2rem auto 1.5rem auto;
+    font-weight: normal; }
+
+#next-desc {
+  display: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Landscape phones and down */
+/* Portrait tablet to landscape and desktop */
+/* Large desktop */
+/* Extra Large desktop */
+/* Very Large desktop */
+/* ################# */
+/* ### CONTAINER ### */
+/* ################# */
+.container {
+  /* ##################### */
+  /* ### TITRE EN TETE ### */
+  /* ###################### */
+  /* ################### */
+  /* ### DESCRIPTION ### */
+  /* ################### */
+  /* ############### */
+  /* ### CONTACT ### */
+  /* ############### */
+  /* ############## */
+  /* ### OFFRES ### */
+  /* ############## */ }
+  .container h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    font-weight: 700; }
+  .container .description .paragraphes {
+    display: block;
+    margin: auto; }
+    .container .description .paragraphes p {
+      text-align: center;
+      font-size: 1rem;
+      margin: 1.2rem auto; }
+    .container .description .paragraphes h5 {
+      text-align: center;
+      font-size: 1.4rem;
+      margin: 1.2rem auto 1.5rem auto;
+      font-weight: normal; }
+  .container .description #btnDescription {
+    display: block;
+    margin: auto; }
+  .container .contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .container .contact form input {
+      border-radius: 0.4rem;
+      text-align: center;
+      margin: 0.3rem 0.1rem;
+      font-size: 1.2rem;
+      font-weight: 500; }
+      .container .contact form input::placeholder {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500; }
+    .container .contact form textarea {
+      text-align: center;
+      font-size: 1.2rem;
+      margin: 0.3rem 0.1rem;
+      font-weight: 500; }
+      .container .contact form textarea::placeholder {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500; }
+  .container .container-offres .offres .offre {
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    margin: 0.8rem 0.4rem;
+    padding: 0.8rem; }
+    .container .container-offres .offres .offre h5 {
+      font-size: 1.2rem;
+      text-align: center;
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: underline;
+      text-transform: uppercase; }
+    .container .container-offres .offres .offre img {
+      width: 15%;
+      display: block;
+      margin: auto; }
+    .container .container-offres .offres .offre button {
+      display: block;
+      margin: 0.8rem auto; }
+    .container .container-offres .offres .offre p {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 900;
+      font-style: italic; }

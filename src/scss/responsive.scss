@@ -1,2 +1,113 @@
-@import './Variables';
-@import './media-queries';
+@import "./Setings";
+@import "./Variables";
+@import "./Classes";
+@import "./reset";
+@import "./media-queries";
+@import "./Animations";
+
+
+/* ########## */
+/* ### XS ### */
+/* ########## */
+
+@include xs {
+
+    /* HEADER */
+
+    header {
+        background-image: url(../../assets/logo-mobile.png);   
+    }
+
+    /* NAV */ 
+
+    nav {
+        ul {
+            li {
+                &:hover {
+                    animation: f10;
+                    animation-duration: 2s;
+                    font-size: 1rem;
+                    @keyframes f10 {
+                        0% {
+                            font-size: 1rem;
+                        }
+                        50% {
+                            font-size: 1.2rem;
+                        }
+                        100% {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* CONTACT */
+
+    .contact {
+        form {
+            input {
+                width: 50vw;
+                height: 2.8vh;
+            }
+            textarea {
+                width: 50vw;
+                height: 8vh;
+            }
+        }
+    }
+
+}
+
+/* ########## */
+/* ### MD ### */
+/* ########## */
+
+@include md {
+
+    /* HEADER */ 
+
+    header {
+        background-image: url(../../assets//logo.png);
+    }
+}
+
+/* ########## */
+/* ### XL ### */
+/* ########## */
+
+@include xl {
+
+    /* HEADER */ 
+
+    header {
+        background-image: url(../../assets//logo.png);
+    }
+}
+
+/* #######"### */
+/* ### XXL ### */
+/* ########### */
+
+@include xxl {
+
+    /* HEADER */ 
+
+    header {
+        background-image: url(../../assets//logo.png);
+    }
+}
+
+/* ############ */
+/* ### XXXL ### */
+/* ############ */
+
+@include xxxl {
+
+    /* HEADER */ 
+
+    header {
+        background-image: url(../../assets//logo.png);
+    }
+}

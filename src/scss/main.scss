@@ -3,3 +3,59 @@
 @import "./Classes";
 @import "./reset";
 @import "./media-queries";
+@import "./Animations";
+
+/* ############## */
+/* ### HEADER ### */
+/* ############## */
+
+header {
+    background-position: center;
+    height: 15vh;
+    margin: 0.6rem;
+    border-radius: 1rem;
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        i {
+            margin: 1.2rem 0.4rem;
+            font-size: 1rem;
+            color: white;
+        }
+        .panier {
+            margin: 0rem 0.2rem;
+            h6 {
+                color: white;
+                background-color: red;
+                border-radius: 50%;
+                display: inline;
+                font-size: 0.8rem;
+                position: absolute;
+                margin: 0.5rem 0rem 0rem 0.1rem;
+            }
+        }
+    }
+}
+
+/* ########### */
+/* ### NAV ### */
+/* ########### */
+
+nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        li {
+
+            text-align: center;
+            font-size: 1rem;
+            &:hover {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
