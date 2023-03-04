@@ -50,6 +50,7 @@ a {
   --purple-back: #D9A3F3;
   --dark: #2c3e50;
   --accent: #95a5a6;
+  --blue: #6882d68e;
   --euforie: #d35400;
   --text: #333;
   --divider: #bdc3c7;
@@ -151,3 +152,47 @@ nav ul {
     font-size: 1rem; }
     nav ul li:hover {
       font-size: 1.2rem; }
+
+/* ############## */
+/* ### Footer ### */
+/* ############## */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  border-radius: 0.5rem;
+  margin: 1rem 2rem 0.4rem 2rem;
+  padding: 0.8rem 0.4rem 0.4rem 0.4rem; }
+  footer .nav-footer {
+    display: flex;
+    flex-direction: row; }
+    footer .nav-footer li {
+      margin: 0.4rem 1.2rem; }
+      footer .nav-footer li a {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0.5rem auto; }
+        footer .nav-footer li a:hover {
+          font-size: 2rem;
+          text-decoration: underline; }
+  footer .reseaux {
+    display: flex;
+    flex-direction: row; }
+    footer .reseaux ul {
+      margin: 0.8rem 2rem; }
+      footer .reseaux ul li a {
+        font-size: 1.4rem;
+        margin: 0.5rem auto; }
+        footer .reseaux ul li a:hover {
+          font-size: 1.6rem; }
+  footer h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0; }
+    footer h6 button {
+      font-size: 1rem;
+      border: none;
+      background-color: initial; }

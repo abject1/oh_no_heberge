@@ -59,3 +59,61 @@ nav {
         }
     }
 }
+
+/* ############## */
+/* ### Footer ### */
+/* ############## */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    border-radius: 0.5rem;
+    margin: 1rem 2rem 0.4rem 2rem;
+    padding: 0.8rem 0.4rem 0.4rem 0.4rem;
+    .nav-footer {
+        display: flex;
+        flex-direction: row;
+        li {
+            margin: 0.4rem 1.2rem;
+            a {
+                font-size: 1.6rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: 0.5rem auto;
+                &:hover {
+                    font-size: 2rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .reseaux {
+        display: flex;
+        flex-direction: row;
+        ul {
+            margin: 0.8rem 2rem;
+            li {
+                a {
+                    font-size: 1.4rem;
+                    margin: 0.5rem auto;
+                    &:hover {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+    h6 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0;
+        button {
+            font-size: 1rem;
+            border: none;
+            background-color: initial;
+        }
+    }
+}

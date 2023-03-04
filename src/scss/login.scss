@@ -1,0 +1,26 @@
+.container {
+    min-height: 60vh;
+    h3 {
+        text-align: center;
+    }
+    form {
+        display: block;
+        margin: 2rem auto;
+        input {
+            display: block;
+            margin: 0.8rem auto;
+            width: 60vw;
+            height: 2rem;
+            text-align: center;
+            &::placeholder {
+                text-align: center;
+            }
+        }
+    }
+    .login {
+        margin-top: 3rem;
+    }
+    .register {
+        margin-top: 3rem;
+    }
+}

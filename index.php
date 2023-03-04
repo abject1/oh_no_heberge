@@ -16,7 +16,9 @@
         <?php include_once './includes/contact.php' ?>
         <div class="underline"></div>
         <?php include_once './includes/offres.php' ?>
+        <div class="underline"></div>
     </div>
+    <?php include_once './includes/footer.php' ?>
 </body>
 
 </html>
